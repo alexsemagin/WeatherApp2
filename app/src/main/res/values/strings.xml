@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="content_description">Content description</string>
+    <string name="drawer_item_test1">Home</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_about">About app</string>
+    <string name="city">city</string>
+    <string name="location">location</string>
+    <string name="condition">condition</string>
+    <string name="temperature">temperature</string>
+    <string name="wind">wind</string>
+    <string name="humidity">humidity</string>
+    <string name="pressure">pressure</string>
+    <string name="sunrise">sunrise</string>
+    <string name="sunshine">sunshine</string>
+    <string name="sunset">sunset</string>
+    <string name="title_activity_preferences">Preferences</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Location">
+        <EditTextPreference
+            android:name="Choose the location"
+            android:defaultValue=""
+            android:key="chooseTheLocationPref"
+            android:summary="Current location "
+            android:title="Choose the location" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Measure unit">
+        <ListPreference
+            android:defaultValue="c"
+            android:entries="@array/listArrayOfTempUnits"
+            android:entryValues="@array/listValuesOfTempUnits"
+            android:key="temperatureUnitPref"
+            android:summary="Choose temperature unit"
+            android:title="Temperature unit" />
+
+        <ListPreference
+            android:defaultValue="km/h"
+            android:entries="@array/listArrayOfSpeedUnits"
+            android:entryValues="@array/listValuesOfSpeedUnits"
+            android:key="windSpeedUnitPref"
+            android:summary="Choose wind speed unit"
+            android:title="Wind speed unit" />
+    </PreferenceCategory>
+</PreferenceScreen>
